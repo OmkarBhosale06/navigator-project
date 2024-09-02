@@ -1,7 +1,7 @@
-Real-Time Navigation with Leaflet
+Real-Time Navigation 
 
 Overview -
-This project demonstrates real-time navigation using Leaflet, Geo APIs, and Socket.IO. It tracks user locations, displays markers on a map, and provides routing between points.
+This project demonstrates real-time navigation using Leaflet, Nodejs, and Socket.IO. It tracks user locations, displays markers on a map, and provides routing between points.
 
 Features -
 Real-Time Location Tracking: Continuously tracks user locations and updates them on the map.
