@@ -18,4 +18,6 @@
 
  10. if market for id exist upate its positon otherwise create a new marker 
 
- 11. when user is disconnect reove marker
+ 11. Calculate and route the distance between two markers
+
+ 12. when user is disconnect reove marker
