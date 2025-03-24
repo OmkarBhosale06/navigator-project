@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+name:Navigator_app
+spec:
+containers:
+- name: node_map
+image: omkarkore06/node_map
