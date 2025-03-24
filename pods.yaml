@@ -4,5 +4,5 @@ metadata:
 name:Navigator_app
 spec:
 containers:
-- name: node_map
-image: omkarkore06/node_map
+- name: navigator
+image: omkarkore06/navigator
