@@ -21,7 +21,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t ${{ secrets.DOCKER_HUB_USERNAME }}/my-app:latest .
+          docker build -t ${{ secrets.DOCKER_HUB_USERNAME }}/navigator:latest .
           docker tag ${{ secrets.DOCKER_HUB_USERNAME }}/navigator:latest ${{ secrets.DOCKER_HUB_USERNAME }}/navigator:${{ github.sha }}
 
       - name: Push Docker image
